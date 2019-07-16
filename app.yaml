@@ -3,6 +3,7 @@ api_version: 1
 threadsafe: true
 
 service: blockchain-101
+default_expiration: "1m"
 
 handlers:
 
@@ -12,6 +13,9 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /img
+  static_dir: img
+
 - url: /
   static_files: index.html
   upload: index.html
@@ -20,6 +24,5 @@ handlers:
   static_files: \1
   upload: (.*)
 
-- url: /img
-  static_dir: img
+
 
