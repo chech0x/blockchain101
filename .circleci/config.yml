@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: google/cloud-sdk
+
+    steps:
+      - checkout
+
+      - run:
+          name: Print the Current Time
+          command: date
+      - run:
+          name: deploy
+          command: |
+            echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
+            gcloud app deploy --quiet  app.yaml --promote --project $GOOGLE_PROJECT_ID --zone $GOOGLE_COMPUTE_ZONE
