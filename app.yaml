@@ -19,3 +19,7 @@ handlers:
 - url: /(.*)
   static_files: \1
   upload: (.*)
+
+- url: /img
+  static_dir: img
+
