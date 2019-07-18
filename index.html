@@ -4,12 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Blockchain y Ethereum 101</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
-
+		<link rel="icon" type="image/png" href="img/favicon.png">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
 		<!--Para agregar los estilos 
@@ -97,22 +97,15 @@
 					</div>
 				</div>
 				</section>
-				<section >
+				<section  data-background-image="img/Ethereum_authentication.gif" data-background-color="rgba(26, 188, 156,1.0)">
 
-					<section data-background-image="img/Ethereum_authentication.gif" data-background-color="rgba(26, 188, 156,1.0)">
+					<section>
 						<h2 style="color:rgba(236, 240, 241,1.0)">Agenda (1/2)</h2>
 						<div style="background-color: rgba(30, 34, 36,0.9); color: white">
 							
 							<ul>
 								<li>Generales Bizantinos</li>
-								<li>¿Què es Blockchain?</li>
-								<small>
-									<ul>
-										<li>Consenso</li>
-										<li>Bloques</li>
-										<li>Transacción</li>
-									</ul>
-								</small>
+								<li>¿Qu&eacute; es Blockchain?</li>
 								<li>Tipos de Blockchain</li>
 								<li>Cryptoconomics</li>
 								<li>Monedas y Tokens</li>
@@ -121,57 +114,19 @@
 							</ul>
 						</div>
 					</section>
-					<section data-background-color="rgba(26, 188, 156,1.0)">
+					<section >
 						<h2 style="color:rgba(236, 240, 241,1.0)">Agenda (2/2)</h2>
-						<div style="background-color: rgba(44, 62, 80,0.4); color: white">
+						<div style="background-color: rgba(30, 34, 36,0.9); color: white">
 							<ul>
 								<li>World of Warcraft y Ethereum</li>
 								<li>Contratos Inteligentes</li>
 								<li>Herramientas</li>
-								<ul>
-									<li>Truffle</li>
-									<li>Ganache</li>
-									<li>Remix</li>
-									<li>Metamask</li>
-								</ul>
 								<li>Hello World</li>
 							</ul>
 						</div>
 		
 					</section>
-					<!-- h2>Agenda (2/2)</h2>
-					<ul>
-						<li>Generales Bizantinos</li>
-						<li>Que es la Blockchain</li>
-						<ul>
-							<li>Consenso</li>
-							<li>Bloques</li>
-							<li>Transacción</li>
-						</ul>
-						<li>Tipos de Blockchain</li>
-						<li>Cryptoconomics</li>
-						<li>Monedas y Tokens</li>
-						<li>Wallets</li>						
-						<li>Que son los nodos en una Blockchain</li>
-						<ul>
-							<li>Roles de nodos</li>
-							<li>Mineros</li>
-							<li>Master Nodes</li>
-						</ul>
 
-						<li>World of Warcraft y Ethereum</li>
-						<li>Contratos Inteligentes</li>
-						<li>Herramientas</li>
-						<ul>
-							<li>Truffle</li>
-							<li>Ganache</li>
-							<li>Remix</li>
-							<li>Metamask</li>
-						</ul>
-						<li>Hello World</li>
-						
-
-					</ul -->
 				</section>
 				<section>
 					<section data-background-video="https://drive.google.com/uc?id=1X8L2txveZtjlRZOqPq1EIsiRt4917i7L&export=download" data-background-video-muted="true" data-background-video-loop="true">
@@ -182,11 +137,30 @@
 
 					<section data-background-image="img/chain.gif">
 						<div style="position: relative;top: 10em;min-height: 80%; padding: 1em; background-color: rgba(30, 34, 36,0.8); color: white">
-							<h2>¿Qué es Blockchain?</h2>
+							<h2>¿Qu&eacute; es Blockchain?</h2>
 						</div>
 					</section>
+					<section data-background-color="rgba(46, 77, 90,1.0)">
+						<div style="background-color: rgba(30, 34, 36,0.8); color: white">
+							<ul>
+								<li>Criptografía</li>
+								<ul>
+									<li><span style="color:#e74c3c">E</span>lliptic <span style="color:#e74c3c">C</span>urve <span style="color:#e74c3c">D</span>igital <span style="color:#e74c3c">S</span>ignature <span style="color:#e74c3c">A</span>lgorithm (ECDSA)</li>
+								</ul>
+								<li>Consenso</li>
+								<ul><li>Libro de Doble Entrada (Ledger)</li></ul>
+								<li>Bloques</li>
+								<li>Transacción</li>
+								<ul>
+									<li>trazables (en la mayoría de las implementaciones)</li>
+								</ul>
+								<li>Cuentas Pseud&oacute;nimas</li>
+							</ul>
+						</div>
+		
+					</section>
 					<section data-background-image="img/asking.gif">
-						<h2 style="position: relative;left: -2em;padding-left:1em;top:-1em;background-color: rgba(30, 34, 36,0.4);text-align:left">¿Qué resuelve?</h2>
+						<h2 style="position: relative;left: -2em;padding-left:1em;top:-1em;background-color: rgba(30, 34, 36,0.4);text-align:left">¿Qu&eacute; resuelve?</h2>
 						<div style="position: relative;min-height: 80%; padding: 1em; background-color: rgba(30, 34, 36,0.6); color: white">
 							
 							<ul>
@@ -195,8 +169,8 @@
 								<ul>
 									<li>Al eliminar a los intermediarios</li>
 								</ul>
-								<li>Doble gasto</li>
-								<li>Censura y Comportamientos Arbitrarios</li>
+								<li>Impide el Doble gasto</li>
+								<li>Evita la censura y sanciones arbitrarios</li>
 							</ul>
 						</div>
 					</section>
@@ -205,7 +179,33 @@
 							<h2>Hashes Everywhere</h2>
 						</div>
 					</section>
-					<section><h2>Tipos de Blockchain</h2></section>
+					<section data-background-color="rgba(46, 204, 113,1.0)">
+							<div style="min-height: 80%; padding: 0.5em; background-color: rgba(30, 34, 36,0.8); color: white">
+
+						<h2 style="color:white">Tipos de Blockchain</h2>
+						<ul>
+
+							<li>Permisionadas</li>
+							<ul>
+								<li>Roles de notarios</li>
+								<li>Quorum, Corda, Ripple</li>
+							</ul>
+						
+							<li>No Permisionadas</li>
+							<ul>
+								<li>Bitcoin, Ethrerum, etc</li>
+							</ul>
+							<li>Públicas</li>
+							<ul>
+								<li>Bitcoin, Ethrerum, Ripple</li>
+							</ul>
+							<li>Privadas</li>
+							<ul>
+								<li>Información Sensible</li>
+							</ul>
+						</ul>
+							</div>
+					</section>
 					
 				</section>
 				<section>
@@ -223,16 +223,42 @@
 
 				</section>
 				<section>
-					<section><h2>Wallets</h2></section>
-					<section><iframe width="560" height="315" src="https://www.youtube.com/embed/oEfpaJPO0cM" frameborder="0" data-autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+					<section data-background-color="rgba(231, 76, 60,1.0)"><h2>Wallets</h2><img style="height: 10em;background-color: rgba(231, 76, 60,1.0)" src="img/ledger.png"/></section>
+					<section data-background-image="img/signing.gif">
+						<div style="position: relative;bottom:-10em;min-height: 80%; padding: 0.2em; background-color: rgba(30, 34, 36,0.5); color: white">
+						<ul>
+							<li>Firmar mensajes con la clave privada</li>
+							<li>Inyectar mensajes como txs en blockchain</li>
+							<li>Cosultar el estado consolidado de txs asociadas a una clave pública</li>
+						</ul>
+					</div>
+					</section>
+					<section data-background-color="rgba(231, 76, 60,1.0)"><h2>Not your keys, not your coins</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/oEfpaJPO0cM" frameborder="0" data-autoplay allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
 				</section>
 				<section>
 					<section data-background-image="img/leftboximg.gif">
 						<div style="position: relative;top: 10em;min-height: 80%; padding: 1em; background-color: rgba(30, 34, 36,0.8); color: white">
-							<h2>¿Qué son los Nodos?</h2>
+							<h2>¿Qu&eacute; son los Nodos?</h2>
 						</div>
 					</section>
-					<section><h2>Tipos</h2></section>
+					<section data-background-image="img/miner.gif">
+						
+						<div style="position: relative;min-height: 80%; padding: 0.2em; background-color: rgba(30, 34, 36,0.5); color: white">
+							<h3>Tipos</h3>
+							<ul>
+								<li>Mineros</li>
+								<ul>
+									<li>Entre más, mas seguro</li>
+								</ul>
+								<li>Clientes</li>
+								<ul>
+									<li>Full-Node</li>
+									<li>Light-Client</li>
+								</ul>
+								
+							</ul>
+						</div>
+					</section>
 				</section>
 				<section>
 					<section data-background-image="img/WoWMap.gif" >
@@ -246,6 +272,13 @@
 							<ul>
 								<li>Turing Completed</li>
 								<li>EVM</li>
+								<li>Máquina de Estado</li>
+								<li>Ethereum Foundation (https://www.ethereum.org/)</li>
+								<li>Una gran comunidad de desarrollo</li>
+								<li>EEA (Ethrerum Enterprise Alliance)</li>
+								<ul>
+									<li>Quorum (versión empresarial)</li>
+								</ul>
 
 							</ul>
 						</div>
@@ -270,6 +303,7 @@
 					</section>
 					<section data-background-image="img/coding.gif">
 						<h2   style="position: relative;top: -4.5em;">Solc</h2>
+						<small  style="position: relative;top: -12.5em;">(Solidity Compiler)</small>
 					</section>
 					<section data-background-color="rgb(51, 37, 42)">
 						<div style="display: inline-flex;margin: auto;">
@@ -279,14 +313,50 @@
 						<br/>
 						<img style="height: 9em;" src="img/truffle-suite.png"/>
 					</section>
-					<section>
+					<section data-background-color="rgba(155, 89, 182,1.0)">
 						<h2>Remix</h2>
+						<ul>
+							<li>Ide Web</li>
+							<ul>
+								<li>Local</li>
+								<li>o en línea</li>
+							</ul>
+							<li>plugins</li>
+							<ul>
+								<li>remixd para acceder al directorio local</li>
+								<li>pipeline para programar flujos visuales</li>
+							</ul>
+						</ul>
+
 					</section>
-					<section>
-						<h2>Infura</h2>
+					<section data-background-color="rgba(254, 107, 74,1.0)">
+						<h2>Infura.io</h2>
+						<ul>
+							<li>Acceso via APIs a las distintas Redes</li>
+							<ul>
+								<li>Mainnet</li>
+								<li>Testnets</li>
+							</ul>
+							<li>Ayuda a que los desarrolladores se centren en lo suyo</li>
+							<li>Incorpora un conponente centralizado a la cadena</li>
+						</ul>
 					</section>
-					<section>
-						<h2>EthScan</h2>
+					<section data-background-color="rgba(41, 128, 185,1.0)">
+						<h2>Ethscan.io</h2>
+						<ul>
+							<li>Es un Blockexplorer</li>
+							<li>Soporta las distintas redes</li>
+							<li>Estadísticas y Charts</li>
+						</ul>
+					</section>
+					<section data-background-color="rgba(127, 140, 141,1.0)">
+						<h2>Metamask.io</h2>
+						<img style="height: 3em;" src="img/metamask.png" />
+						<ul>
+							<li>Es una Wallet</li>
+							<li>Permite Interactuar con dApps</li>
+							<li>En un provider Web3</li>
+						</ul>
 					</section>
 				</section>
 			</div>
