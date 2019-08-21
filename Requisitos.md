@@ -33,8 +33,14 @@ La versión con interfaz gráfica se puede descargar desde acá:
 https://www.trufflesuite.com/ganache
 
 
-## Visual Studio
+## Visual Studio Code
 
-Instalar Visual Studio Code con la extensión de Juan Blanco para Solídity
+Instalar **Visual Studio Code** con la extensión de Juan Blanco para Solídity. 
 
+https://code.visualstudio.com/
 
+## Git
+
+También es necesario tener **Git** instalado. En el siguiente enlace aparecen los métodos de instalación para distintos **Sistemas Operativos**: 
+
+https://git-scm.com/book/es/v1/Empezando-Instalando-Git
